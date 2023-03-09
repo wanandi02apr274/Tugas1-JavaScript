@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Rumus Bangun Datar Jajar Genjang</title>
+</head>
+<body>
+    <script language="javascript">
+        var alas = 6;
+        var tinggi = 8;
+        var b = Math.sqrt((alas * alas) + (tinggi * tinggi));
+        let keliling = 2 * (alas + b);
+        let luas = alas * tinggi;
+        //cetak data
+        document.write("<h1 align='center'>Belajar JavaScript</h3>");
+        document.write("Rumus Matematika bangun datar menggunakan JavaScript");
+        document.write("<br/>");
+        document.write("<br/>");
+        document.write("Diketahui sebuah segitiga memiliki alas " + alas + " cm, tinggi " + tinggi + " cm dan sisi miring (b) " + b + " cm." + "<br />" +
+          "<br /> Luasnya adalah " + luas + 
+          "<br /> Kelilingnya adalah " + keliling
+        );
+    </script>
+</body>
+</html>
